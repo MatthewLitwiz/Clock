@@ -19,7 +19,7 @@ public class MyFrame extends JFrame {
         setTitle("Clock");
         setLayout(new FlowLayout());
         setSize(350, 200);
-        // setResizable(false);
+        setResizable(false);
 
         timeFormat = new SimpleDateFormat("hh:mm:ss a"); // time format
         dayFormat = new SimpleDateFormat("EEEE"); // day format
